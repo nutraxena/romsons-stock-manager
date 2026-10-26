@@ -1,9 +1,9 @@
-# ROMSONS Stock Manager - Vercel root-folder edition
+# ROMSONS Stock Management PWA — Graph Selection Release
 
-Upload **all files in this folder directly to the root** of your existing GitHub repository. No `public` folder required. Replace `package.json`, `vercel.json`, `src.js` and other matching files. The new `postbuild.mjs` is required.
+Deploy to Vercel using Vite (`npm run build`, output `dist`). Upload all project files to the GitHub repository root.
 
-On Vercel: Root Directory `./`, Framework Vite, Build Command `npm run build`, Output Directory `dist`. Redeploy (clear build cache if available).
+## New Graph Selection panel
+Filters: area, stockist, year (shared main dashboard), month, 49-product catalogue, size, purchase/sale/closing quantity and value, Bar/Line/Pie, group by month/stockist/product. Export PNG and Print/Save PDF. Charts use live source rows and catalogue matching, with missing months shown as missing.
 
-After deployment, test `https://YOUR-DOMAIN.vercel.app/seed.json` -- it must show a JSON array, not a 404 or HTML page.
-
-This version packages initial stock data into the deployed site. Browser-uploaded data is stored on that device, not shared across devices. Do not rely on it as the sole backup.
+## Important
+This release preserves the prior 49-row catalogue report and Paramount Rehab-only upload rule. Historical stock data and mapping were not independently reconciled. Existing unmatched rows are still excluded from the 49-row Product Wise report; verify their quantities before official reporting. Closing stock across multiple months must not be summed. Local browser uploads are not shared between devices.
