@@ -1,0 +1,242 @@
+{
+  "source": "existing seeded records from 21 uploaded statements",
+  "statement_groups": 21,
+  "original_rows": 2397,
+  "retained_rows": 2394,
+  "excluded_rows": 3,
+  "unmatched_nonexcluded_rows": 0,
+  "per_statement_totals_preserved": true,
+  "per_statement_six_metrics": [
+    {
+      "stockist": "Paramount Remedies",
+      "year": 2026,
+      "month": 4,
+      "purchase_qty": 36.0,
+      "sale_qty": 42.0,
+      "closing_qty": 477.0,
+      "purchase_value": 10137.64,
+      "sale_value": 12781.56,
+      "closing_value": 125177.45
+    },
+    {
+      "stockist": "Paramount Remedies",
+      "year": 2026,
+      "month": 5,
+      "purchase_qty": 662.0,
+      "sale_qty": 58.0,
+      "closing_qty": 1081.0,
+      "purchase_value": 126521.81,
+      "sale_value": 18460.01,
+      "closing_value": 241287.52
+    },
+    {
+      "stockist": "Paramount Remedies",
+      "year": 2026,
+      "month": 6,
+      "purchase_qty": 106.0,
+      "sale_qty": 60.0,
+      "closing_qty": 1127.0,
+      "purchase_value": 21136.52,
+      "sale_value": 14846.17,
+      "closing_value": 250840.88
+    },
+    {
+      "stockist": "Paramount Remedies",
+      "year": 2026,
+      "month": 7,
+      "purchase_qty": 11.0,
+      "sale_qty": 50.0,
+      "closing_qty": 1088.0,
+      "purchase_value": 2790.9,
+      "sale_value": 16088.75,
+      "closing_value": 241164.57
+    },
+    {
+      "stockist": "Paramount Remedies",
+      "year": 2026,
+      "month": 8,
+      "purchase_qty": 46.0,
+      "sale_qty": 51.0,
+      "closing_qty": 1083.0,
+      "purchase_value": 17339.4,
+      "sale_value": 14486.54,
+      "closing_value": 246523.11
+    },
+    {
+      "stockist": "Paramount Remedies",
+      "year": 2026,
+      "month": 9,
+      "purchase_qty": 45.0,
+      "sale_qty": 82.0,
+      "closing_qty": 1046.0,
+      "purchase_value": 10865.14,
+      "sale_value": 27395.33,
+      "closing_value": 234715.29
+    },
+    {
+      "stockist": "Paramount Remedies",
+      "year": 2026,
+      "month": 10,
+      "purchase_qty": 76.0,
+      "sale_qty": 141.0,
+      "closing_qty": 981.0,
+      "purchase_value": 17437.01,
+      "sale_value": 32079.46,
+      "closing_value": 224734.34
+    },
+    {
+      "stockist": "RN Enterprise",
+      "year": 2026,
+      "month": 4,
+      "purchase_qty": 156.0,
+      "sale_qty": 156.0,
+      "closing_qty": 4.0,
+      "purchase_value": 34763.543,
+      "sale_value": 35954.0,
+      "closing_value": 1541.1
+    },
+    {
+      "stockist": "RN Enterprise",
+      "year": 2026,
+      "month": 5,
+      "purchase_qty": 870.0,
+      "sale_qty": 1.0,
+      "closing_qty": 879.0,
+      "purchase_value": 191284.874,
+      "sale_value": 320.0,
+      "closing_value": 136886.11
+    },
+    {
+      "stockist": "RN Enterprise",
+      "year": 2026,
+      "month": 6,
+      "purchase_qty": 3.0,
+      "sale_qty": 51.0,
+      "closing_qty": 829.0,
+      "purchase_value": 523.98,
+      "sale_value": 31779.04,
+      "closing_value": 125822.241
+    },
+    {
+      "stockist": "RN Enterprise",
+      "year": 2026,
+      "month": 7,
+      "purchase_qty": 244.0,
+      "sale_qty": 296.0,
+      "closing_qty": 759.0,
+      "purchase_value": 74959.079,
+      "sale_value": 68242.512,
+      "closing_value": 160443.086
+    },
+    {
+      "stockist": "RN Enterprise",
+      "year": 2026,
+      "month": 8,
+      "purchase_qty": 523.0,
+      "sale_qty": 269.0,
+      "closing_qty": 1026.0,
+      "purchase_value": 140461.831,
+      "sale_value": 64730.8112,
+      "closing_value": 241291.739
+    },
+    {
+      "stockist": "RN Enterprise",
+      "year": 2026,
+      "month": 9,
+      "purchase_qty": 254.0,
+      "sale_qty": 146.0,
+      "closing_qty": 1176.0,
+      "purchase_value": 54801.807,
+      "sale_value": 95508.31,
+      "closing_value": 266042.236
+    },
+    {
+      "stockist": "RN Enterprise",
+      "year": 2026,
+      "month": 10,
+      "purchase_qty": 62.0,
+      "sale_qty": 232.0,
+      "closing_qty": 1000.0,
+      "purchase_value": 27196.265,
+      "sale_value": 69373.57,
+      "closing_value": 240619.594
+    },
+    {
+      "stockist": "Unisurge",
+      "year": 2026,
+      "month": 4,
+      "purchase_qty": 523.0,
+      "sale_qty": 265.0,
+      "closing_qty": 2205.0,
+      "purchase_value": 104990.2,
+      "sale_value": 58408.8,
+      "closing_value": 496027.34
+    },
+    {
+      "stockist": "Unisurge",
+      "year": 2026,
+      "month": 5,
+      "purchase_qty": 143.0,
+      "sale_qty": 701.0,
+      "closing_qty": 1698.0,
+      "purchase_value": 29395.89,
+      "sale_value": 181295.34,
+      "closing_value": 366687.19
+    },
+    {
+      "stockist": "Unisurge",
+      "year": 2026,
+      "month": 6,
+      "purchase_qty": 860.0,
+      "sale_qty": 639.0,
+      "closing_qty": 2211.0,
+      "purchase_value": 215186.44,
+      "sale_value": 147299.04,
+      "closing_value": 503391.15
+    },
+    {
+      "stockist": "Unisurge",
+      "year": 2026,
+      "month": 7,
+      "purchase_qty": 278.0,
+      "sale_qty": 339.0,
+      "closing_qty": 2127.0,
+      "purchase_value": 64586.02,
+      "sale_value": 76842.45,
+      "closing_value": 491136.72
+    },
+    {
+      "stockist": "Unisurge",
+      "year": 2026,
+      "month": 8,
+      "purchase_qty": 825.0,
+      "sale_qty": 2106.0,
+      "closing_qty": 1191.0,
+      "purchase_value": 171187.97,
+      "sale_value": 478812.56,
+      "closing_value": 249316.4
+    },
+    {
+      "stockist": "Unisurge",
+      "year": 2026,
+      "month": 9,
+      "purchase_qty": 217.0,
+      "sale_qty": 385.0,
+      "closing_qty": 1019.0,
+      "purchase_value": 51183.92,
+      "sale_value": 93021.34,
+      "closing_value": 215668.19
+    },
+    {
+      "stockist": "Unisurge",
+      "year": 2026,
+      "month": 10,
+      "purchase_qty": 593.0,
+      "sale_qty": 467.0,
+      "closing_qty": 1086.0,
+      "purchase_value": 182552.81,
+      "sale_value": 118721.08,
+      "closing_value": 277053.4
+    }
+  ]
+}
