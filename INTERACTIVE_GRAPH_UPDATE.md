@@ -1,0 +1,1 @@
+Interactive chart update: pastel pie slices, click or keyboard Enter on any pie slice/bar/line point to see its group name and exact filtered value. Existing monthly row/column totals and exports retained.

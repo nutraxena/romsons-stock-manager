@@ -2,3 +2,14 @@
 
 /* Digital analytics release */
 :root{background:#eaf1fa}header{background:linear-gradient(110deg,#09182c,#123b62)}.panel{box-shadow:0 8px 28px #0c25450d}.graph-panel{border:1px solid #a8c8e5;background:linear-gradient(180deg,#f6faff,#fff)}.graphfilters{margin:20px 0}.graphframe{overflow:hidden;border-radius:14px;background:#101e33}.graph-panel h2{font-size:24px}.graph-panel .eyebrow{color:#077ba7}@media(max-width:750px){.graphfilters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Always-visible grand totals for monthly and single-month reports */
+tfoot td{position:sticky;bottom:0;background:#dbeafa;color:#12385f;font-weight:800;border-top:2px solid #7aa7d6;z-index:2}tfoot td:nth-child(2){text-align:left}tfoot tr:hover{background:#dbeafa}
+
+/* Interactive pastel chart points and value popup */
+.graphframe{position:relative;overflow:visible}
+.graph-point{cursor:pointer;transition:opacity .15s,filter .15s;outline:none}
+.graph-point:hover,.graph-point:focus,.graph-point.is-selected{filter:brightness(1.16);stroke:#fff;stroke-width:3}
+.graph-tooltip{position:absolute;z-index:30;min-width:175px;max-width:240px;pointer-events:none;padding:12px 14px;border-radius:12px;background:#f8fbff;color:#132a48;box-shadow:0 8px 30px #0004;border:1px solid #bdd5ee;font:13px system-ui,sans-serif}
+.graph-tooltip strong{display:block;margin-bottom:5px}.graph-tooltip span{display:block;font-weight:650;color:#176089}
+.graph-tooltip[hidden]{display:none}

@@ -1,0 +1,1 @@
+Monthly Grand Total row added to on-screen reports and Excel/CSV/PDF exports. ALL MONTHS missing-month cells remain blank; closing total uses latest closing per product, not sum of monthly closings. Totals reflect visible search-filtered products.
