@@ -1,20 +1,9 @@
-# ROMSONS Stock Management PWA
+# ROMSONS Stock Manager - Vercel root-folder edition
 
-Vercel-ready Vite PWA with initial April–October 2026 stock statement data.
+Upload **all files in this folder directly to the root** of your existing GitHub repository. No `public` folder required. Replace `package.json`, `vercel.json`, `src.js` and other matching files. The new `postbuild.mjs` is required.
 
-## Deploy to Vercel
-1. Unzip this project and push folder contents to a GitHub repository.
-2. Import repository in Vercel.
-3. Framework: Vite; Build command: `npm run build`; Output directory: `dist`.
-4. Deploy. Open the HTTPS link, then use browser Install App / Add to Home Screen.
+On Vercel: Root Directory `./`, Framework Vite, Build Command `npm run build`, Output Directory `dist`. Redeploy (clear build cache if available).
 
-## Local development
-`npm install` then `npm run dev`. For production run `npm run build`.
+After deployment, test `https://YOUR-DOMAIN.vercel.app/seed.json` -- it must show a JSON array, not a 404 or HTML page.
 
-## Notes
-- Initial 21 stock files were parsed to seed.json. Paramount Remedies August 2026 data has been rebuilt from the corrected standard-format workbook in `reference/`. New Excel uploads are parsed client-side and saved to browser localStorage only. Browser storage is not a durable database and can be cleared. Export backups regularly.
-- New uploads do not sync between different devices. Add hosted database and authentication for true multi-device cloud synchronization.
-- Service worker caches visited assets for offline access after first online visit; PWA installation depends on browser support.
-- Print / PDF opens browser print dialog (choose Save as PDF). CSV and XLSX download directly. Image export is not included yet.
-- Data parser is best-effort; validate totals against source statements before business reporting. Negative and missing numeric fields may require manual verification.
-- Monthly Closing Total uses the latest month with data rather than sum of all monthly closing balances.
+This version packages initial stock data into the deployed site. Browser-uploaded data is stored on that device, not shared across devices. Do not rely on it as the sole backup.
